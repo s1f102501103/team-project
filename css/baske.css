@@ -1,0 +1,20 @@
+.sidebar{
+    width: 50%;
+}
+
+.contents{
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    background-color:blue;
+}
+
+h2{
+    background-color: brown;
+}
