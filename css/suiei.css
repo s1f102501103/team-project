@@ -1,0 +1,14 @@
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.title{
+    width: 50%;
+    background-color: aquamarine;
+    margin: 10px;
+}
+.content{
+    width: 50%;
+    background-color: blue;
+    margin: 10px;
+}
