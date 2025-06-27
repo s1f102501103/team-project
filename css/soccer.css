@@ -1,0 +1,18 @@
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.side{
+    width: 50%;
+    background-color: aquamarine;
+    margin: 10px;
+}
+.content{
+    width: 50%;
+    background-color: rgb(0, 179, 255);
+    margin: 10px;
+}
+img{
+    width: 250px;
+    
+}
