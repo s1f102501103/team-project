@@ -1,18 +1,27 @@
 .main{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+}
+.title{
+    text-align: center;
 }
 .side{
-    width: 50%;
-    background-color: aquamarine;
-    margin: 10px;
+    width: 30%;
+    margin: 0 5px 0px auto;
 }
 .content{
-    width: 50%;
+    margin: 0 5px 0px auto;
+    width: 66%;
     background-color: blue;
-    margin: 10px;
 }
 .img{
-    width: 250px;
-    
+    width: 400px;
+    margin: 100px 0px;
+}
+.link{
+    margin-left: auto;
+}
+h1{
+    background-color: blueviolet;
 }
