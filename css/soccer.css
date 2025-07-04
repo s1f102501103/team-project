@@ -33,3 +33,13 @@ h1{ color: rgb(24, 2, 2);
 .re{flex-directio;
 
 }
+@media (max-width: 700px) {
+
+    .content{
+        width: 100%;
+    }
+    .light_side {
+        flex-direction: column;
+    }
+
+}
