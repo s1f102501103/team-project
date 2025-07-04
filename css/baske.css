@@ -1,9 +1,10 @@
 .sidebar{
-    width: 50%;
+    width: 30%;
 }
 
 .contents{
-    width: 50%;
+    width: 70%;
+    float:left;
 }
 
 .container {
@@ -12,9 +13,24 @@
 }
 
 h1{
-    background-color:blue;
+    color: brown;
+    background-color: beige;
+    padding:10px 10px 10px 10px;
+    margin:0px 10px 0px 0px;
+    text-align: center;
+}
+h2{
+    background-color: beige;
+    margin:0px 10px 0px 0px;
+    padding:10px 10px 0% 10px;
 }
 
-h2{
-    background-color: brown;
+h3{
+    text-decoration: underline;
+}
+.syoukai{
+    font-size:50px;
+    margin:0px;
+    background-color: beige;
+    padding:10px;
 }
