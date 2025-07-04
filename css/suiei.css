@@ -1,7 +1,6 @@
 .main {
     display: flex;
     gap: 20px;
-    align-items: flex-start;
 }
 
 .left_side {
@@ -40,7 +39,6 @@
     background-color: #2200ff;
     color: white;
     padding: 20px;
-
 }
 
 .link {
@@ -61,8 +59,10 @@
     text-decoration: none;
 }
 
-h1.title {
+h1.title,
+h2 {
     margin: 0;
+    text-align: center;
 }
 
 @media (max-width: 700px) {
