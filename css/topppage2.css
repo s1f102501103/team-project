@@ -1,7 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Segoe UI', 'ヒラギノ角ゴ ProN', 'Meiryo', 'sans-serif';
+  background: #f8fafc;
+  color: #222;
+}
+
+h1 {
+  font-size: 2.6em;
+  letter-spacing: 0.05em;
+  margin-top: 48px;
+  margin-bottom: 20px;
+  font-weight: 800;
+  color: #22223b;
+}
+
+h2 {
+  font-size: 1.7em;
+  margin: 36px 0 18px 0;
+  font-weight: 700;
+  color: #4f5d75;
+  letter-spacing: 0.03em;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+  font-size: 1.15em;
+  margin-bottom: 28px;
+  margin-top: 8px;
+  line-height: 1.7;
+  background: #e0fce294;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.04);
+  padding: 20px 32px;
+}
+
+li strong {
+  color: #3366cc;
+  font-weight: 600;
+}
+
+hr {
+  margin: 40px auto;
+  width: 90%;
+  border: 1px solid #bfc6d1;
+}
+
 img {
   display: block;
   margin: 30px auto 30px;
   max-width: 20%;
   border-radius: 16px;
   box-shadow: 0 2px 12px rgba(60,80,142,0.08);
+}
+
+p {
+  margin-bottom: 16px;
+  font-size: 1.1em;
+  color: #444a60;
 }
